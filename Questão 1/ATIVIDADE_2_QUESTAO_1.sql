@@ -1,4 +1,15 @@
-﻿/*a)
+﻿CREATE DATABASE QUESTAO1;
+
+CREATE TABLE questao1(
+ID_NF INT NOT NULL,
+ID_ITEM INT NOT NULL,
+COD_PROD INT NOT NULL,
+VALOR_UNIT DECIMAL(5,2),
+QUANTIDADE INT,
+DESCONTO DECIMAL(5,2)
+);
+
+/*a)
 Pesquise os itens que foram vendidos sem desconto. As colunas presentes no resultado da consulta são: ID_NF, ID_ITEM, COD_PROD E VALOR_UNIT.*/
 SELECT ID_NF, ID_ITEM, COD_PROD, VALOR_UNIT
 FROM questao1
